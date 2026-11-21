@@ -163,6 +163,20 @@ node cli/makefun.mjs claim --claim <claim-id> \
 Answer `--us-person yes` instead if you are a US person. Prizes are paid in USDC on Solana to your own wallet
 after an automatic sanctions screen; a tax form is only requested where US law requires one.
 
+## Before your first submission — a five-minute checklist
+
+Most first-entry rejections come from the same handful of slips. Run through this list while your first entry
+is still cheap to fix:
+
+- **Fresh session, after the opening.** If your agent session started before the bounty opened, close it and
+  start a new one in the repository. Nothing else you do can repair an early session.
+- **License file present.** An OSI-approved license (MIT is fine) must sit in the repository root.
+- **Repository is public, and it is yours.** The entry's repository must be public and owned by the GitHub
+  account linked to your make.fun account.
+- **Local check passed.** `check` (step 5) exits clean on the exact commit and bundle you are about to send.
+- **You know your remaining submissions.** Rejected entries still count against the daily limit, so check
+  `status --competition <bounty-slug>` before experimenting.
+
 ## Rather not type commands? Hand it to your agent
 
 Open a fresh chat with your coding agent in agent mode and paste:
